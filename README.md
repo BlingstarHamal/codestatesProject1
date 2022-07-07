@@ -1,6 +1,5 @@
 # CodestatesProject1(team)
 ppt presentation: https://www.youtube.com/watch?v=rIngeviTLg8  
-Web App: https://uscredit.herokuapp.com/  
 data : https://www.dacon.io/competitions/official/235713/overview/description   
   
     
@@ -29,14 +28,18 @@ data : https://www.dacon.io/competitions/official/235713/overview/description
 
 
 # Modeling
-** plz run google colab **
-EDA_FIANL = 종합EDA  
-Modeling_ALL = 종합 모델링 / catboost,xgboost,randomforest  
+** plz run google colab **  
+  
+EDA_FIANL.ipynb  
+Modeling_ALL.ipynb (catboost,xgboost,randomforest) => out put : cat model  
 
 xgboost와 randomforest는 Optuna로 하이퍼파라미터 튜닝 진행  
 catboost는 별도의 하이퍼파라미터 적용 안함  
 최종적으로 catboost가 가장 높은 점수 LogLoss(0~1 0에가까울수록 좋은점수)  
   
+# Web App  
+flask_app  
+Web App: https://uscredit.herokuapp.com/  
   
   
 ## 협업 메뉴얼
